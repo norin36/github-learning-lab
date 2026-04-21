@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 0 auto;
+  padding: 48px 0 80px;
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid #334155;
+  border-radius: 999px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+h1 {
+  margin: 16px 0 12px;
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.desc {
+  max-width: 680px;
+  color: #cbd5e1;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 24px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+ul {
+  padding-left: 20px;
+  line-height: 1.9;
+}
